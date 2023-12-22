@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VaultGuard - Your Personal Password Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="logo">VaultGuard</div>
+    </nav>
+    <div class="container">
+        <h1>Password Manager</h1>
+        <p>Welcome to the fortress of your digital world! Our password manager is your guardian in the realm of online security, where every keystroke is safeguarded and every access point fortified. Experience peace of mind as you entrust your passwords to our encrypted vault, ensuring seamless access and unmatched protection across all your devices.</p>
+        <h2>Your Passwords <span id="alert">(Copied!)</span></h2> 
+        <table>
+            <tr>
+                <th>Website</th>
+                <th>Username</th>
+                <th>Password</th>
+                <th>Delete</th>
+            </tr> 
+ 
+        </table>
+
+        <h2>Add a Password</h2>
+        <form action="/submit" method="post">
+
+            <!-- Text input for website -->
+            <label for="website">Website:</label>
+            <input type="text" id="website" name="website" required>
+            <br><br>
+
+            <!-- Text input for username -->
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <br><br>
+
+            <!-- Password input -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <br>
+            <!-- Submit button -->
+            <button class="btn" type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
