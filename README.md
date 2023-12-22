@@ -1,4 +1,5 @@
 **VaultGuard** - Your Personal Password Manager
+
 VaultGuard is a simple password manager web application designed to securely store and manage your passwords. It provides a user-friendly interface to store website URLs, associated usernames, and passwords in an encrypted vault.
 
 **Features**:
